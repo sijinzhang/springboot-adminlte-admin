@@ -4,11 +4,11 @@ server:
 spring:
     datasource:
           druid:
-                type : com.alibaba.druid.pool.DruidDataSource  
-                url : jdbc:mysql://192.168.10.200:3306/adminlte-admin?useUnicode=true&characterEncoding=utf-8  
-                username: worker  
-                password : China@5678
-                driverClassName : com.mysql.jdbc.Driver  
+                type : com.alibaba.druid.pool.DruidDataSource
+                url : jdbc:mysql://127.0.0.1:3306/adminlte-admin?useUnicode=true&characterEncoding=utf-8
+                username: root
+                password : rootroot
+                driverClassName : com.mysql.jdbc.Driver
                 initialSize: 5  
                 minIdle: 5  
                 maxActive: 20  
